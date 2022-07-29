@@ -202,8 +202,7 @@ marker.addListener('click', function() {
     }       
 });
  
-			   }
-		  else{
+		
 			  
 		  }});
       }
