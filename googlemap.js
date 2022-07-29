@@ -174,7 +174,9 @@
           
           $('.list-group-item').each(function() {
 			   var dataparent = $(this).data("parent");  
-			   if(dataparent == 'abu dhabi') {
+// --condition--> 
+	  if(dataparent == '/*your location*/') {
+	// --condition--> 	  
 		  	 var nam = $(this).data("name");
 				   
                var url =  $(this).data("link");
